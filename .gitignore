@@ -106,3 +106,20 @@ ENV/
 
 # VSCode settings
 .vscode/
+
+
+# 我的训练数据
+dataset_LIP/
+
+# 我在本地保存的训练好的模型
+backup_model/
+
+# 我得到的分割好的图片
+path_to_predictions_epoch10
+
+# 压缩文件
+*.zip
+
+# 我下载下来的预训练好的模型
+keras_segmentation/pspnet101_cityscapes.h5
+
